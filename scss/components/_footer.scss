@@ -1,0 +1,23 @@
+
+footer {
+    background-color: #00B33C;
+    margin-top: 300px;
+    color: #ffffff;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-size: 12px;
+
+    a {
+        &:link {
+            color: #aeffc9;
+            text-decoration: none;
+        }
+        &:visited {
+            color: #aeffc9;
+            text-decoration: none;
+        }
+    }
+}
