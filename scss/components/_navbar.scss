@@ -1,0 +1,19 @@
+.active {
+    color: #000000;
+    font-size: 20px;
+}
+
+header {
+    nav {
+        div {
+            ul {
+                li {
+                    &:hover {
+                        font-size: 19px;
+                        transition: font-size 0.2s;
+                    }
+                }
+            }
+        }
+    }
+}

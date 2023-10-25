@@ -19,5 +19,9 @@ footer {
             color: #aeffc9;
             text-decoration: none;
         }
+        &:hover {
+            font-size: 19px; 
+            transition: font-size 0.2s;
+        }
     }
 }

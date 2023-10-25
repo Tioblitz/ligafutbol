@@ -44,7 +44,7 @@ div {
         }
 
         input[type=submit] {
-            width: 300px;
+            width: 270px;
             background-color: #00B33C;
             color: white;
             padding: 14px 20px;
@@ -57,15 +57,15 @@ div {
 }
 
 select {
-	width: 30%;
-	min-width: 290px;
-	padding: 12px 20px;
-	margin: 8px 0;
-	display: flex;
-	flex-direction: column;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
+    width: 30%;
+    min-width: 290px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 
@@ -73,4 +73,10 @@ select {
     width: 100%;
     min-width: 350px;
     min-height: 350px;
+}
+
+.div-adj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
