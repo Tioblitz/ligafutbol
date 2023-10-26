@@ -1,8 +1,8 @@
 
 footer {
-    background-color: #00B33C;
+    background-color: map-get($colores, "verde");
     margin-top: 300px;
-    color: #ffffff;
+    color: map-get($colores, "blanco");
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -12,16 +12,13 @@ footer {
 
     a {
         &:link {
-            color: #aeffc9;
-            text-decoration: none;
+            @include footer-link;
         }
         &:visited {
-            color: #aeffc9;
-            text-decoration: none;
+            @include footer-link;
         }
         &:hover {
-            font-size: 19px; 
-            transition: font-size 0.2s;
+            @include hover-link
         }
     }
 }

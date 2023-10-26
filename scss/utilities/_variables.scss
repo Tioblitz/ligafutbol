@@ -1,17 +1,18 @@
-$verde: #00B33C;
-
-$blanco: white;
+$colores: (
+    "verde": #00B33C,
+    "blanco": #ffffff,
+);
 
 .background-lif{
-    background-color: $verde; 
+    background-color: map-get($colores, "verde"); 
 }
 
 .blanco {
-    color: $blanco;
+    color: map-get($colores, "blanco");
 }
 
 .green {
-    color: $verde;
+    color: map-get($colores, "verde");
 }
 
 .space {

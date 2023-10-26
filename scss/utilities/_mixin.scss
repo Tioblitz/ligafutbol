@@ -1,0 +1,9 @@
+@mixin hover-link {
+    font-size: 19px;
+    transition: font-size 0.2s;
+}
+
+@mixin footer-link {
+    color: #aeffc9;
+    text-decoration: none;
+}

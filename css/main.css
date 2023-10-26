@@ -10,7 +10,7 @@
 }
 
 .blanco {
-  color: white;
+  color: #ffffff;
 }
 
 .green {
@@ -73,21 +73,18 @@ header nav div ul li:hover {
   transition: font-size 0.2s;
 }
 
-.borde-noticias {
+.borde, .borde-noticias {
   border: 2px solid #00B33C;
   border-radius: 25px;
   margin: 10px;
+}
+
+.borde-noticias {
   padding-top: 20px;
 }
 .borde-noticias:hover {
   background-color: rgba(0, 179, 60, 0.1254901961);
   transition: background-color 0.5s;
-}
-
-.borde-fut {
-  border: 2px solid #00B33C;
-  border-radius: 25px;
-  margin: 10px;
 }
 
 div form {
@@ -133,7 +130,7 @@ div form textarea {
 div form input[type=submit] {
   width: 270px;
   background-color: #00B33C;
-  color: white;
+  color: #ffffff;
   padding: 14px 20px;
   margin: 8px;
   border: none;

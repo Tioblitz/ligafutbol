@@ -45,8 +45,8 @@ div {
 
         input[type=submit] {
             width: 270px;
-            background-color: #00B33C;
-            color: white;
+            background-color: map-get($colores, "verde");
+            color: map-get($colores, "blanco");
             padding: 14px 20px;
             margin: 8px;
             border: none;

@@ -1,7 +1,11 @@
-.borde-noticias {
-    border: 2px solid $verde;
+.borde {
+    border: 2px solid map-get($colores, "verde");
     border-radius: 25px;
     margin: 10px;
+}
+
+.borde-noticias {
+    @extend .borde;
     padding-top: 20px;
     &:hover {
         background-color: #00b33c20;
