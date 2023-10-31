@@ -1,7 +1,7 @@
 div {
     form {
         width: 0%;
-        min-width: 310px;
+        min-width: 290px;
         background-color: hsla(140, 100%, 35%, 0.188);
         padding: 10px;
         border-radius: 5px;
@@ -9,7 +9,7 @@ div {
 
         input[type=text] {
             width: 30%;
-            min-width: 290px;
+            min-width: 270px;
             padding: 12px 20px;
             margin: 8px 0;
             display: flex;
@@ -21,7 +21,7 @@ div {
 
         input[type=email] {
             width: 30%;
-            min-width: 290px;
+            min-width: 270px;
             padding: 12px 20px;
             margin: 8px 0;
             display: flex;
@@ -33,7 +33,7 @@ div {
 
         textarea {
             width: 30%;
-            min-width: 290px;
+            min-width: 270px;
             padding: 12px 20px;
             margin: 8px 0;
             display: flex;
@@ -44,7 +44,7 @@ div {
         }
 
         input[type=submit] {
-            width: 270px;
+            width: 250px;
             background-color: map-get($colores, "verde");
             color: map-get($colores, "blanco");
             padding: 14px 20px;
@@ -58,7 +58,7 @@ div {
 
 select {
     width: 30%;
-    min-width: 290px;
+    min-width: 270px;
     padding: 12px 20px;
     margin: 8px 0;
     display: flex;
@@ -71,8 +71,8 @@ select {
 
 .iframe {
     width: 100%;
-    min-width: 350px;
-    min-height: 350px;
+    min-width: 290px;
+    min-height: 290px;
 }
 
 .div-adj {
