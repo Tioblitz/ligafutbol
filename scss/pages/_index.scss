@@ -2,11 +2,12 @@
     border: 2px solid map-get($colores, "verde");
     border-radius: 25px;
     margin: 10px;
+    padding: 10px
 }
 
 .borde-noticias {
     @extend .borde;
-    padding-top: 20px;
+    padding: 20px;
     &:hover {
         background-color: #00b33c20;
         transition: background-color 0.5s;

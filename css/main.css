@@ -62,6 +62,9 @@ footer a:hover {
   font-size: 19px;
   transition: font-size 0.2s;
 }
+footer h2 {
+  font-size: 25px;
+}
 
 .active {
   color: #000000;
@@ -77,10 +80,11 @@ header nav div ul li:hover {
   border: 2px solid #00B33C;
   border-radius: 25px;
   margin: 10px;
+  padding: 10px;
 }
 
 .borde-noticias {
-  padding-top: 20px;
+  padding: 20px;
 }
 .borde-noticias:hover {
   background-color: rgba(0, 179, 60, 0.1254901961);
